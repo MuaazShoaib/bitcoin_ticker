@@ -1,7 +1,9 @@
+import 'package:bitcoin_ticker/price_screen.dart';
 import 'package:flutter/material.dart';
-import 'price_screen.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   @override
